@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap");
+body {
+  background-image: url(../images/pexels-mutecevvil-19905186.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  border: 3px black solid;
+  height: 70vh;
+  background-color: #e9e5d3;
+  border-radius: 12px;
+  box-shadow: 10px 10px 0px 0px black;
+}
+.main-container .create-task-modal {
+  border: 1px black solid;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.511);
+  display: none;
+  z-index: 2;
+}
+.main-container .create-task-modal .text_area {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.main-container .create-task-modal .submit {
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  aspect-ratio: 1/1;
+  background-color: #eeca3a;
+  text-align: center;
+  padding-bottom: 3px;
+}
+.main-container [class^=create-new-task-button] {
+  box-shadow: 5px 5px 0px 0px black;
+  border: 1.5px black solid;
+  border-radius: 5px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.main-container [class^=create-new-task-button]:active {
+  background-color: #c1c0bc;
+  transform: scale(0.95);
+}
+.main-container [class^=create-new-task-button] h5 {
+  font-family: "Mystery Quest", system-ui;
+}
+@media screen and (max-width: 991px) {
+  .main-container [class^=create-new-task-button] h5 {
+    font-size: 0.8rem;
+  }
+}
+.main-container [class^=create-new-task-button] img {
+  width: 25px;
+}
+@media screen and (max-width: 991px) {
+  .main-container [class^=create-new-task-button] img {
+    margin-top: 5px;
+    width: 15px;
+  }
+}
+.main-container .create-new-task-button2 {
+  right: 3%;
+  top: 1%;
+}
+.main-container .create-new-task-button1 {
+  left: 3%;
+  top: 1%;
+}
+.main-container .header-section .col h1 {
+  font-family: "Mystery Quest", system-ui;
+}
+.main-container .tasks-section .created-task {
+  padding: 1vh 4% 1vh 1vh;
+  border: 1px white solid;
+  background-image: url(../images/3358f950db6de8683ab8af7253e807e0.jpg);
+  border-radius: 10px;
+  background-size: cover;
+  position: relative;
+  /* Hide the default checkbox */
+  /* Custom checkbox container */
+  /* The custom checkbox */
+  /* Checked state */
+}
+.main-container .tasks-section .created-task p {
+  font-family: "Atma", system-ui;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 991px) {
+  .main-container .tasks-section .created-task p {
+    font-size: 1rem;
+  }
+}
+.main-container .tasks-section .created-task input[type=checkbox] {
+  display: none;
+}
+.main-container .tasks-section .created-task .checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  gap: 0.5rem;
+}
+.main-container .tasks-section .created-task .custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #555;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+}
+.main-container .tasks-section .created-task input[type=checkbox]:checked + .custom-checkbox::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid #000000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  background-color: transparent;
+}
+.main-container .tasks-section .created-task .one-task-delete {
+  right: 2%;
+  cursor: pointer;
+}
+.main-container .tasks-section .created-task .one-task-delete img {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=style.css.map */

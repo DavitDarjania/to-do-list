@@ -1,6 +1,6 @@
 const createModal = document.querySelector('.create-task-modal')
-const createButton = document.querySelector('.create-new-task-button2')
-const deleteAll = document.querySelector('.create-new-task-button1')
+const createButton = document.querySelector('.event-button2')
+const deleteAll = document.querySelector('.event-button1')
 
 const soundClick = document.querySelector('#mouse-click')
 soundClick.volume = 0.3

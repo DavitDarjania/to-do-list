@@ -40,7 +40,7 @@ body{
             padding-bottom: 3px;
         }
     }
-    [class^="create-new-task-button"]{
+    [class^="event-button"]{
         box-shadow: 5px 5px 0px 0px black;
         border: 1.5px black solid;
         border-radius: 5px;
@@ -64,11 +64,11 @@ body{
             }
         }
     }
-    .create-new-task-button2{
+    .event-button2{
         right: 3%;
         top: 1%;
     }
-    .create-new-task-button1{
+    .event-button1{
         left: 3%;
         top: 1%;
     }

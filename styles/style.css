@@ -41,39 +41,39 @@ body {
   text-align: center;
   padding-bottom: 3px;
 }
-.main-container [class^=create-new-task-button] {
+.main-container [class^=event-button] {
   box-shadow: 5px 5px 0px 0px black;
   border: 1.5px black solid;
   border-radius: 5px;
   padding: 0 5px;
   cursor: pointer;
 }
-.main-container [class^=create-new-task-button]:active {
+.main-container [class^=event-button]:active {
   background-color: #c1c0bc;
   transform: scale(0.95);
 }
-.main-container [class^=create-new-task-button] h5 {
+.main-container [class^=event-button] h5 {
   font-family: "Mystery Quest", system-ui;
 }
 @media screen and (max-width: 991px) {
-  .main-container [class^=create-new-task-button] h5 {
+  .main-container [class^=event-button] h5 {
     font-size: 0.8rem;
   }
 }
-.main-container [class^=create-new-task-button] img {
+.main-container [class^=event-button] img {
   width: 25px;
 }
 @media screen and (max-width: 991px) {
-  .main-container [class^=create-new-task-button] img {
+  .main-container [class^=event-button] img {
     margin-top: 5px;
     width: 15px;
   }
 }
-.main-container .create-new-task-button2 {
+.main-container .event-button2 {
   right: 3%;
   top: 1%;
 }
-.main-container .create-new-task-button1 {
+.main-container .event-button1 {
   left: 3%;
   top: 1%;
 }
